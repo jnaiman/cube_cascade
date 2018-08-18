@@ -1,0 +1,14 @@
+# this will plot how the cube of data should look
+
+# what is the size of the box
+box = 8 # box X box X box size
+
+data_files = '/Users/jillnaiman1/illustrisData/L25n128TNG/ledcube/coords*box08*hdf5'
+
+#------------------------------------------
+
+import glob as glob
+
+files = glob.glob(data_files)
+
+files = files.sort()
